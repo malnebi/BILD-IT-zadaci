@@ -10,7 +10,7 @@ public class Z1_PrestupneGodine {
 
 		int startY = 101;
 		int endY = 2100;
-		// varijabla year predstavlja sve godine izmedju pocetne i krajnje
+		// var year predstavlja sve godine izmedju pocetne i krajnje
 		int year = startY;
 		// brojac za kontrolu rasporeda 10 brojeva po redu
 		int i = 0;

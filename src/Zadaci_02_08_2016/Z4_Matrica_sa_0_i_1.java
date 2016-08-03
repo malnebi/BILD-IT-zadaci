@@ -16,7 +16,7 @@ public class Z4_Matrica_sa_0_i_1 {
 		int n = input.nextInt();
 
 		input.close();
-		// pozivanje metode za ispis matrice
+		// pozivanje metode za ispis 
 		printMatrix(n);
 
 	}

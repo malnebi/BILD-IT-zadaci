@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Z2_BrojTacnihINetacnihOdgovora {
 	/**
 	 * Metoda prima kao argument broj pitanja na osnovu koga generiše nasumièna
-	 * pitanja oduzimanja tipa : „Koliko je 5 - 2 ?“, broji taène i netaène
+	 * pitanja oduzimanja npr : „Koliko je 5 - 2 ?“, broji taène i netaène
 	 * odgovora te ih ispisuje korisniku.
 	 * */
 	

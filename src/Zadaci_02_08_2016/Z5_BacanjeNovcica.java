@@ -2,9 +2,9 @@ package Zadaci_02_08_2016;
 
 public class Z5_BacanjeNovcica {
 	/**
-	 * Napisati metodu koja prima jedan argument te simulira bacanje novèiæa
-	 * toliko puta. Nakon što se simulacija završi, program ispisuje koliko puta
-	 * je novèiæ pokazao glavu a koliko puta pismo.
+	 * Napisati metodu koja prima jedan argument te simulira bacanje novcica
+	 * toliko puta. Nakon sto se simulacija zavrsi, program ispisuje koliko puta
+	 * je novcic pokazao glavu a koliko puta pismo.
 	 */
 	public static void main(String[] args) {
 		// broj bacanja novcica 

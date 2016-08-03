@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
- * Program broji karaktere, rijeèi i linije teksta u fajlu. Rijeèi su odvojene
+ * Program broji karaktere, rijeèi i linije teksta u fajlu. Rijeci su odvojene
  * razmakom, ime fajla je proslijedjeno kao argument u program.
  **/
 public class Z3_BrojSlovaRijeciRedovaUFajlu {
