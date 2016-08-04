@@ -1,6 +1,6 @@
 package Zadaci_04_08_2016;
 
-import java.util.Scanner;
+import java.util.Scanner; 
 
 public class Z1_NajmanjiFaktoriMnozenjaURastucemRedoslijedu {
 	/**

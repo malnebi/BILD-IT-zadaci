@@ -5,7 +5,7 @@ package Zadaci_04_08_2016;
 	 * nasumiènih brojeva, 10 po liniji.
 	 */
 public class Z4_100NasumicnihBrojeva_I_VelikihSlova {
-
+ 
 	public static void main(String[] args) {
 
 		printingRandom();
