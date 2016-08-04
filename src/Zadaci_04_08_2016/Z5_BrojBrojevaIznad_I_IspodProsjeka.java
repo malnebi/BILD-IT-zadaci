@@ -49,7 +49,7 @@ public class Z5_BrojBrojevaIznad_I_IspodProsjeka {
 				}
 			}
 		}
-		// ispis rezultata 
+		// ispis rezultata   
 		System.out.println("Prosjek unesenih brojeva je : " + average);
 		System.out.println(aboveOrEqual
 				+ (aboveOrEqual < 5 ? " broja su" : " brojeva je ") + "iznad ili je jednako prosjeku.");

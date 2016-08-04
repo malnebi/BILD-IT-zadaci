@@ -1,9 +1,9 @@
 package Zadaci_04_08_2016;
 
-import java.util.Scanner; 
+import java.util.Scanner;   
 
 public class Z1_NajmanjiFaktoriMnozenjaURastucemRedoslijedu {
-	/**
+	/** 
 	 * Program ispisuje najmanje faktore mnozenja broja kojeg unosi korisnik, u
 	 * rastucem redoslijedu. Npr, ukoliko korisnik unese 120 program treba da
 	 * ispiše 2, 2, 2, 3, 5. (2 * 2 * 2 * 3 * 5 = 120)
