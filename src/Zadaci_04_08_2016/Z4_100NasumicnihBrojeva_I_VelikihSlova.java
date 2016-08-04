@@ -1,10 +1,8 @@
 package Zadaci_04_08_2016;
 
 	/**
-	 * 
 	 * Metoda printa 100 nasumiènih uppercase karaktera i 100
 	 * nasumiènih brojeva, 10 po liniji.
-	 * 
 	 */
 public class Z4_100NasumicnihBrojeva_I_VelikihSlova {
 

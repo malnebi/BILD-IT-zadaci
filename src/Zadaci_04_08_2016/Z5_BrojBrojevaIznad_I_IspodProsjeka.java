@@ -54,7 +54,7 @@ public class Z5_BrojBrojevaIznad_I_IspodProsjeka {
 		System.out.println(aboveOrEqual
 				+ (aboveOrEqual < 5 ? " broja su" : " brojeva je ") + "iznad ili je jednako prosjeku.");
 		System.out.println(below + (below < 5 ? " broja su " : " brojeva je")
-				+ "ispod prosjeka.");
+				+ "ispod prosjeka.");  // ternarni operatori za razlicit ispis zavisno od brojeva
 	}
 
 	/** Metoda racuna prosjek niza cijelih brojeva */

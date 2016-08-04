@@ -22,7 +22,7 @@ public class Z2_ISBN_broj {
 
 		int result = 0; // zbir brojeva pomnozenih sa indexom + 1
 
-		// uneseni brojevi se smjestaju u niz i
+		// uneseni brojevi se smjestaju u niz 
 		for (int i = 0; i < array.length; i++) {
 			array[i] = unos.nextInt();
 			result = array[i] * (i + 1) + result;

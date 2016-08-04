@@ -6,7 +6,6 @@ import java.util.Scanner;
  * Program za ispis brojeva u rastucem redosljedu.
  */
 
-
 public class Z3_Ispis3BrojaURastucemRedosiljedu {
 	public static void main(String[] args) {
 
