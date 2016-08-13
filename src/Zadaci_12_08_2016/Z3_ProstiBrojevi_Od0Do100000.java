@@ -20,6 +20,8 @@ public class Z3_ProstiBrojevi_Od0Do100000 {
 	/** metoda vraca broj ako je prost ako nije vraca nulu */
 	public static int isPrime(int n) {
 		// svaki broj je djeljiv sa 1 pa pocinjemo od 2
+		// nijedan broj ne mozemo podijeliti brojem koji je veci od njegove
+		// polovine i zato je div <= n/2
 		for (int div = 2; div <= n / 2; div++) {
 			if (n % div == 0) {// ako je broj djeljiv sa nekim osim sa samim
 				return 0; // sobom, nije prost i vraca se nula
