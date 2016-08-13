@@ -11,7 +11,10 @@ public class Z5_BrojPonavljanja100UnesenihBrojeva {
 	static java.util.Scanner input = new java.util.Scanner(System.in);
 
 	public static void main(String[] args) {
-
+		
+		// poruka korisniku za unos
+		System.out.println("Unesite cijele brojeve do 100 (0 prekida unos): ");
+		
 		// niz od 100 elemenata za unesene brojeve
 		int[] array = new int[100];
 
