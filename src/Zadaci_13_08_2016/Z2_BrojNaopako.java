@@ -1,10 +1,10 @@
 package Zadaci_13_08_2016;
 
 /**
- * 2. Napišite metodu sa sljedeæim headerom koja vraæa naopako ispisan broj koji
- * joj je proslijeðen kao argument: public static void reverse(int number). Na
- * primjer, reverse(3456) treba da vrati 6543. Napisati program koji pita
- * korisnika da unese neki cijeli broj te mu vrati isti ispisan naopako.
+ * 2. Metodu public static void reverse(int number), vraca naopako ispisan broj
+ * koji joj je proslijedjen kao argument. Na primjer, reverse(3456) treba da
+ * vrati 6543. Program pita korisnika da unese neki cijeli broj te mu vrati isti
+ * ispisan naopako.
  * */
 
 public class Z2_BrojNaopako {

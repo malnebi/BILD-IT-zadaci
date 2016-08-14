@@ -1,11 +1,10 @@
 package Zadaci_13_08_2016;
 
 /**
- * 1. (Izraèunavanje napojnice) Napisati program koji uèitava ukupan iznos
- * raèuna koji treba uplatiti kao i procenat tog raèuna kojeg želimo platiti kao
- * napojnicu te izraèunava ukupan raèun i napojnicu. Na primjer, ukoliko
- * korisnik unese 10 kao raèun i 15 % kao procenat za napojnicu program treba da
- * ispiše da je ukupan raèun za uplatiti 11.5 a napojnica 1.5.
+ * 1. Program ucitava ukupan iznos racuna kao i procenat tog racuna kojeg zelimo
+ * platiti kao napojnicu te izracunava ukupan racun i napojnicu. Na primjer,
+ * ukoliko korisnik unese 10 kao racun i 15 % kao procenat za napojnicu program
+ * ispisuje da je ukupan racun 11.5 a napojnica 1.5.
  * */
 public class Z1_Napojnica {
 	static java.util.Scanner input = new java.util.Scanner(System.in);
