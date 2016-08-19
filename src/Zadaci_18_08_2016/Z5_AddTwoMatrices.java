@@ -85,13 +85,13 @@ public class Z5_AddTwoMatrices {
 	}
 
 	/** check entry */
-	public static int checkInput() {
-		int num = 0;
+	public static double checkInput() {
+		double num = 0;
 		boolean error = true;// check for error
 		do {
 			try {
 				// input has to be an integer and not negative number
-				num = input.nextInt();
+				num = input.nextDouble();
 				if (num < 0)
 					throw new Exception();
 				error = false;
