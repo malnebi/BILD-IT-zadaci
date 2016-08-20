@@ -10,15 +10,12 @@ public class Z5_EvenNumberOf1s {
 	public static void main(String[] args) {
 
 		// calling method to create and print matrix
-		int[][] m = createAndPrintMatrix();
+		 int[][] m = createAndPrintMatrix();
 
 		// matrix for even number of 1s in rows, but not in columns
-		// int[][] m = { { 1, 0, 0, 1, 0, 1 },
-		// { 1, 0, 0, 0, 1, 1 },
-		// { 0, 0, 1, 1, 0, 1 },
-		// { 1, 1, 1, 0, 0, 0 },
-		// { 0, 1, 1, 0, 1, 0 },
-		// { 1, 0, 0, 1, 1, 0 } };
+//		int[][] m = { { 1, 0, 1, 1, 0, 1 }, { 1, 0, 0, 1, 1, 1 },
+//				{ 0, 0, 1, 1, 1, 1 }, { 1, 1, 1, 0, 1, 0 },
+//				{ 0, 1, 1, 1, 1, 0 }, { 1, 0, 1, 1, 1, 0 } };
 
 		// get sum of row/column elements
 		int[] sumR = sumRow(m);
@@ -52,18 +49,20 @@ public class Z5_EvenNumberOf1s {
 	/** method for print result */
 	public static void print(int[] array) {
 
-		int counter = 0;
-		// go through the array and compair result previously summed
-		// columns/rows elements
-		for (int i = 1; i < array.length; i++) {
+		// counter of even numbers in array
+		int isEven = 0;
+		for (int i = 0; i < array.length; i++) {
 
-			if (array[i] != array[i - 1])
-				counter++;// with everi various sums, increase counter
+			if (array[i] % 2 == 0) {// if arrays element is divisible with 2
+				isEven++; // counter increases
+			}
 		}
-		if (counter == 0) {
+		// displaying result
+		if (isEven == 6)
 			System.out.println("has even numbers of 1s. ");
-		} else
+		else
 			System.out.println("has not even numbers of 1s");
+
 	}
 
 	/** method returns sum row elements */
