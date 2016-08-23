@@ -32,6 +32,32 @@ public class Z5_Substring {
 			System.out.println(str1 + " nije substring stringa " + str2);
 		}
 
+
+		String substring = "";
+		// int i = 0;
+		int j = 0;
+
+		do {
+			if (str1.charAt(0) == str2.charAt(j)) {
+
+				for (int k = 0; k < str1.length(); k++) {
+
+					if (str1.charAt(k) == str2.charAt(k + j)) {
+						substring = substring + str1.charAt(k);
+
+						if (str1.length() == substring.length()) {
+							break;
+						}
+					} else {
+						break;
+					}
+				}
+			} else {
+				j++;
+			}
+		} while (str1.length() > substring.length());
+		System.out.println(substring);
+		
 	}
 
 }
