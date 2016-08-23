@@ -23,6 +23,7 @@ public class Z3_BrojSlovaRijeciRedovaUFajlu {
 		output.print(" Do sada najduza recenica.");
 		output.close();
 		
+		
 		//pozivanje main metode druge klase kojoj prosledjujemo fajl
 		KlasaKojaSePoziva.main(file); 		
 	}
@@ -48,7 +49,6 @@ class KlasaKojaSePoziva {
 			counterLine++;
 			counterChar += line.length(); // brojanje karaktera
 			counterWord += line.split(" ").length; // brojanje rijeci
-
 		}
 		input.close();
 		System.out.print("Tekst u fajlu ima :" + counterLine + " linija, "
