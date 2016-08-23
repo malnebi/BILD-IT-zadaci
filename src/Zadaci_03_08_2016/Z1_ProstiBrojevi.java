@@ -25,7 +25,7 @@ public class Z1_ProstiBrojevi {
 		// zatvaranje Scannera
 		input.close();
 
-	}
+	}  
 
 	/** metoda koja isisuje proste brojeve */
 	public static void printPrimeNumbers(int startNum, int endNum,

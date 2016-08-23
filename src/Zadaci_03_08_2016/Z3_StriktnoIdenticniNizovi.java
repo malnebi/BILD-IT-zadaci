@@ -19,6 +19,8 @@ public class Z3_StriktnoIdenticniNizovi {
 		for (int i = 0; i < array1.length; i++) {
 			array1[i] = input.nextInt();
 		}
+		
+		System.out.println("Unesite elemente drugog niza:"); //!!!!na bootcampu bilo je bez ovog, izgubila pola boda
 		// popunjavanje drugog niza
 		for (int i = 0; i < array2.length; i++) {
 			array2[i] = input.nextInt();
