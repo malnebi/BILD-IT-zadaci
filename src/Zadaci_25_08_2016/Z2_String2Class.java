@@ -24,7 +24,7 @@ public class Z2_String2Class {
 
 		System.out.println("System compareTo(): " + a.compareTo(b));
 
-		System.out.print("Custom compare(): ");
+		System.out.print("Custom compareTo(): ");
 		
 		// create and object that refers to another string (a)
 		MyString2 a2 = new MyString2(a);
