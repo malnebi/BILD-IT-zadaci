@@ -7,20 +7,31 @@ package Zadaci_26_08_2016;
  * 
  */
 public class Faculty extends Employee {
-	// int data fields named officeHours and rank to denote employees office
-	// hours and ranking
-
+	// data fields
 	private int officeHours;
 	private int rank;
+	private Person person;
 
 	// A no-arg constructor that creates a default faculty.
 	public Faculty() {
 		this(8, 23);
 	}
 
+	// A no-arg constructor that creates a default faculty.
+	public Faculty(Person person) {
+
+		this(8, 23);
+		this.setPerson(person);
+	}
+
 	// A constructor that creates a faculty with the specified officeHours and
 	// rank
 	public Faculty(int officeHours, int rank) {
+		this.officeHours = officeHours;
+		this.rank = rank;
+	}
+
+	public Faculty(Person person, int officeHours, int rank) {
 		this.officeHours = officeHours;
 		this.rank = rank;
 	}
@@ -42,12 +53,19 @@ public class Faculty extends Employee {
 		this.rank = rank;
 	}
 
+	public Person getPerson() {
+		return person;
+	}
+
+	public void setPerson(Person person) {
+		this.person = person;
+	}
+
 	// An overriden method toString() that returns a string description for the
 	// faculty.
 	@Override
 	public String toString() {
-		return super.toString() + "\nFaculty_fromEmployee [officeHours="
-				+ officeHours + ", rank=" + rank + "]";
+		return getPerson() + "\nFaculty office hours = " + officeHours
+				+ ", rank = " + rank;
 	}
-
 }

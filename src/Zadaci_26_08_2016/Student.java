@@ -31,6 +31,10 @@ public class Student extends Person {
 		return status;
 	}
 
+	public void setClassStatus(String status) {
+		this.status = status;
+	}
+
 	/**
 	 * An overriden method toString() returns a string description for the
 	 * student.
@@ -38,8 +42,7 @@ public class Student extends Person {
 
 	@Override
 	public String toString() {
-		return "\nStudent " + super.toString() + " classStatus= " + status
-				+ "]";
+		return "\nStudent " + super.toString() + " Class status = " + status;
 	}
 
 }

@@ -15,7 +15,7 @@ public class Person {
 
 	/** A no-arg constructor creates a default person */
 	Person() {
-		this("Ime", "Adresa", "066/235/123", "mail@mail.com");
+		this("Osoba", "Adresa", "066/235/123", "mail@mail.com");
 	}
 
 	/**
@@ -69,8 +69,8 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return "Name= " + name + ", Addres= " + addres
-				+ ", Phone Number = " + phoneNum + ", eMail= " + eMail;
+		return "Name = " + name + ", Addres = " + addres + ", Phone Number = "
+				+ phoneNum + ", eMail = " + eMail;
 	}
 
 }

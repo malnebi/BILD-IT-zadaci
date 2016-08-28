@@ -17,26 +17,40 @@ package Zadaci_26_08_2016;
 public class Z2_TestPersonStudentFacultyStuff {
 
 	public static void main(String[] args) {
-
+		
+		// create a person calling constructor with specified fields
 		Person p = new Person("Ranka Radic", "Vrsacka, 12", "066/123-123",
 				"ranka@live.com");
-		System.out.println(p.toString());
 
+		
+		// create a student calling constructor with specified fields
 		Student s = new Student("Natasa Talic", "Vozdovacka, 52",
 				"065/236-541", "nata@live.com");
-		System.out.println(s.toString());
+		// set class status for this student
+		s.setClassStatus(Student.CLASS_STATUS_4);
 
+		
+		// takes default values from Person and specified fields for Employee
 		Employee e = new Employee("Hemofarm", 10000);
-		System.out.println(e.toString());
 
-		Faculty f = new Faculty(); // create an object with default values for
-									// class Faculty
-		System.out.println(f.toString());
+		
+		// create an object with default values for class Faculty and Person
+		// object
+		Faculty f = new Faculty(p);
+		// set person p for Person class to be an object of class Faculty
+		f.setPerson(p);
 
+		
+		// takes default values from Person and specified fields for Stuff
 		Stuff st = new Stuff("Menager");
 
-		System.out.println(st.toString());
-
+		
+		// print information about objects using toString()
+		System.out.println("PERSON\n" + p.toString());
+		System.out.println("\nSTUDENT\n" + s.toString());
+		System.out.println("\nEMPLOYEE\n" + e.toString());
+		System.out.println("\nFACULTY\n" + f.toString());
+		System.out.println("\nSTUFF\n" + st.toString());
 	}
 
 }
