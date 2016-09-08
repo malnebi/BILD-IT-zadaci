@@ -1,7 +1,6 @@
 package Zadaci_06_09_2016;
 
 import java.util.InputMismatchException;
-import java.util.Scanner;
 
 /**
  * 2. 18.3 (Compute greatest common divisor using recursion) The gcd(m, n) can
@@ -16,11 +15,10 @@ public class Z2_GCD_Recursion {
 	static java.util.Scanner input = new java.util.Scanner(System.in);
 
 	public static void main(String[] args) {
-
-		// Create a Scanner take values from user
-		Scanner input = new Scanner(System.in);
+		// message to the user
 		System.out.print("Enter two numbers: ");
-		int n1 = checkInput();
+		
+		int n1 = checkInput(); // invoke method for checking input
 		int n2 = checkInput();
 
 		// Find and display the gcd

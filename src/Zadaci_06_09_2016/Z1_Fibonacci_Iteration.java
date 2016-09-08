@@ -1,7 +1,7 @@
 package Zadaci_06_09_2016;
 
 import java.util.InputMismatchException;
-import java.util.Scanner;
+
 
 /**
  * 1. 18.2 (Fibonacci numbers) Rewrite the fib method in Listing 18.2 using
@@ -25,11 +25,9 @@ public class Z1_Fibonacci_Iteration {
 	static java.util.Scanner input = new java.util.Scanner(System.in);
 
 	public static void main(String[] args) {
-
-		// Create a Scanner
-		Scanner input = new Scanner(System.in);
+		// message to the user
 		System.out.print("Enter an index for a Fibonacci number: ");
-		int index = checkInput();
+		int index = checkInput(); // invoking method to check input
 
 		// Find and display the Fibonacci number
 		System.out.println("The Fibonacci number at index " + index + " is "
@@ -60,7 +58,6 @@ public class Z1_Fibonacci_Iteration {
 		}
 		return fibonacci;
 	}
-	
 
 	/** check input ***/
 	/** the method for checking out user input ***/
