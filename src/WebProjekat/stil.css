@@ -1,0 +1,54 @@
+body  {background:url(w1.jpg );}
+
+#okvir {width:950px; margin-top:0px; margin-left:auto; margin-right:auto}
+
+#zaglavlje {background:url(lup.jpg);  height:140px; 
+ font-family: Mistral;  font-size:13pt; font-style:italic; }
+#zaglavlje h1 { color:#252f14; background:#9ace17;
+ width:450px; margin-left:10px; margin-top:0px}
+#zaglavlje h1:hover { color:white}
+
+#navigacija { float:left; width:950px; height:80px; margin:0px; 
+ padding:0px; background:#ddddd}
+#navigacija a {color:white}
+#navigacija a:hover{ color:white; font-weight:bold}
+#navigacija ul{padding:0px; margin-top:0px}
+#navigacija ul li{display:block; float:left; width:150px; height:50px;
+ text-align:center}
+#navigacija li:hover {display:block; font-weight:bold; font-style:italic;
+ background:white}
+#navigacija ul li h4 a:link, a:visited { background:url(w11.jpg) repeat-x; 
+ width:150px; float:left;}
+#navigacija  ul li h4 a:hover  {background-position:bottom;}
+#navigacija  p  {float:left;  margin-top:0px}
+#navigacija  p  a {color:black; }
+#navigacija  p  a:hover  {background:#d1806b;}
+
+
+
+#sadrzaj  {background:#ffffee;  padding:50px;  text-align:justify;
+ font-family:calibri}
+#sadrzaj a {color:#552233}
+#sadrzaj a:hover{background:#lightgray; color:black; font-style:italic}
+#sadrzaj img :hover { width:300px; height:250}
+#sadrzaj table {width:800px; height:100px; 
+ border-color:#aa2059;
+ background:#adf779; text-align:center}
+#sadrzaj table img:hover {width:300px; height:250px}
+#sadrzaj p:hover {font-style:bold;}
+
+
+
+
+#sadrzaj1 {float:right; margin:0px; padding:10px;
+ width:300px; height:200px }
+#sadrzaj1 h4:hover{background:#00cccc; font-style:italic;
+ width:250px; height:25px}
+
+
+
+#podnozje {background:#6aab3b; height:50px;  text-align:center}
+#podnozje p:hover { font-weight:bold ; height:60px} 
+
+
+
