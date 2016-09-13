@@ -12,9 +12,8 @@ import java.util.Scanner;
 public class Z3_BrojSlovaRijeciRedovaUFajlu {
 	public static void main(String[] args) throws IOException {
 		// kreiranje text filea
-		File file = new File(
-				"C:\\Users\\Administrator\\git\\BILD-IT_zadaci\\src\\text.txt");
-		
+		File file = new File("text.txt");
+
 		// kreiranje objekta za tekst file
 		java.io.PrintWriter output = new java.io.PrintWriter(file);
 		// upisivanje rijeci u file metodama print i prinln
@@ -22,10 +21,9 @@ public class Z3_BrojSlovaRijeciRedovaUFajlu {
 		output.println("Malo duza recenica.");
 		output.print(" Do sada najduza recenica.");
 		output.close();
-		
-		
-		//pozivanje main metode druge klase kojoj prosledjujemo fajl
-		KlasaKojaSePoziva.main(file); 		
+
+		// pozivanje main metode druge klase kojoj prosledjujemo fajl
+		KlasaKojaSePoziva.main(file);
 	}
 }
 
@@ -55,4 +53,3 @@ class KlasaKojaSePoziva {
 				+ counterWord + "rijeci i " + counterChar + " karaktera.");
 	}
 }
-
